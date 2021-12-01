@@ -16,7 +16,7 @@ public class HousingArea {
         int k = 8;
 
         housing(plots, n, k);
-        //firstUniqChar("loveleetcode");
+        //firstUniqChar("loveleetcode");//test commit
 
     }
 
