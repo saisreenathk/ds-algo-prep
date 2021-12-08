@@ -1,8 +1,7 @@
-package com.preparation.self.slidingwindow;
+package com.preparation.practice.slidingwindow;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Optional;
 
 /*
  find the sub array sum that matches the given sum: k by 2 pointer and sliding window

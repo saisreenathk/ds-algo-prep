@@ -1,10 +1,10 @@
-package com.preparation.self.matrix;
+package com.preparation.practice.matrix;
 
 /*
 count zeros in a rowwise and column wise sorted matrix
 https://javabypatel.blogspot.com/2016/10/count-zeros-in-sorted-matrix.html
  */
-public class CountZeros {
+public class CountZerosAndPrintMatrixDiagnally {
 
     /*
       0 0 1 1
@@ -28,7 +28,7 @@ public class CountZeros {
     }
 
     public static void main(String[] args) {
-        CountZeros c = new CountZeros();
+        CountZerosAndPrintMatrixDiagnally c = new CountZerosAndPrintMatrixDiagnally();
         int[][] matrix = {
                 {0, 0, 0, 0, 1},
                 {0, 0, 0, 1, 1},
