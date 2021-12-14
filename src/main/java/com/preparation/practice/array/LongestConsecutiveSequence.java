@@ -5,7 +5,7 @@ import java.util.Set;
 
 /*
   identify the length of the sub sequence (absolute difference of 1) in the array which is longest
-  easier sol is to sort and check for a band which is has a difference of 1 and create a new band if the
+  easier sol is to sort and check for a band which has a difference of 1 and create a new band if the
   difference is more.
 
   other solution is to check if an element can be starting point of a band, meaning no other numbers less than it
