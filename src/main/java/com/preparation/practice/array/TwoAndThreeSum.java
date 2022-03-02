@@ -11,8 +11,9 @@ public class TwoAndThreeSum {
         int[] arr = {10, 5, 2, 3, -6, 9, 11};
         //t.twoSum(arr, 4);
 
-        int[] arr2 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 15};
-        t.threeSum(arr2, 18);
+        int[] arr2 = {1, 2, 3, 4, 5,5, 6, 7, 8, 9, 15};
+        t.twoSum(arr2,10);
+        t.threeSum(arr2, 10);
     }
 
     public void twoSum(int[] arr, int n) {

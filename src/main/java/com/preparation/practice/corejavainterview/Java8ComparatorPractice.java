@@ -1,4 +1,4 @@
-package com.preparation.practice;
+package com.preparation.practice.corejavainterview;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
@@ -40,7 +40,16 @@ public class Java8ComparatorPractice {
         return list.stream().sorted(comparator).collect(Collectors.toList());
     }
             /*
-                    Comparator<ExportFlattenedResultRow> flattenedResultRowComparator = Comparator
+            sample for reference:
+                     Comparator<ExportFlattenedResultRow> flattenedResultRowComparator = Comparator
                         .comparing(ExportFlattenedResultRow::getPartNumber)
+                        .thenComparing(ExportFlattenedResultRow::getRevisionScheduledPushDate,
+                                        Comparator.nullsLast(Comparator.naturalOrder()))
+                        .thenComparing(ExportFlattenedResultRow::getGeo,
+                                        Comparator.nullsLast(Comparator.naturalOrder()))
+                        .thenComparing(ExportFlattenedResultRow::getSegment,
+                                        Comparator.nullsLast(Comparator.naturalOrder()))
+                        .thenComparing(ExportFlattenedResultRow::getChannel,
+                                        Comparator.nullsLast(Comparator.naturalOrder()));
              */
 }
