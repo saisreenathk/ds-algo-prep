@@ -1,7 +1,11 @@
 package com.preparation.oopsdesign;
 
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Stack;
+
 //https://www.youtube.com/watch?v=Hb6WePtPQhg&list=PL12BCqE-Lp650Cg6FZW7SoZwN8Rw1WJI7&index=3&ab_channel=SoumyajitBhattacharyay
 public class HotelManagementSystem {
 }
@@ -53,8 +57,6 @@ class RoomKey {
     public void assignRoom(Room room) {
     }
 
-    ;
-
 }
 
 class HouseKeepingLog {
@@ -66,7 +68,6 @@ class HouseKeepingLog {
     public void addRoom(Room room) {
     }
 
-    ;
 }
 
 abstract class Person {
