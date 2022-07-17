@@ -36,7 +36,7 @@ public class Java8ComparatorPractice {
     }
 
     private static List<Pair<Integer, Integer>> sortPairs(List<Pair<Integer, Integer>> list) {
-        Comparator<Pair<Integer,Integer>> comparator = Comparator.comparing(Pair::getKey);
+        Comparator<Pair<Integer,Integer>> comparator = Comparator.comparing(Pair::getValue);
         return list.stream().sorted(comparator).collect(Collectors.toList());
     }
             /*
